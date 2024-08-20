@@ -33,13 +33,13 @@ python evaluate.py --path_imgs "path_to_image_folder" --path_masks "path_to_mask
 ## Model Architecture
 <br>
 <figure>
-<img src="assets/MainArchitecture.drawio Conf.png">
+<img src="assets/MainArchitecture.png">
 <figcaption align = "center"><b>Fig.1 - Main Architecture</b></figcaption>
 </figure>
 <br>
 <br>
 <figure>
-<img src="assets/MultiScaleAttention.drawio.png">
+<img src="assets/MSCA.png">
 <figcaption align = "center"><b>Fig.2 - Multi Scale Attention</b></figcaption>
 </figure>
 <hr>
@@ -60,18 +60,18 @@ the testing set
 
 <table>
     <th>Dataset</th>
-    <th>Accuracy</th>
+    <th>Dice</th>
     <th>Precision</th>
     <th>Recall</th>
     <th>F1-Score</th>
     <th>IoU</th>
     <tr>
     <td>Crack500</td>
-    <td>97.4</td>
-    <td>0.763</td>
-    <td>0.790</td>
-    <td>0.775</td>
-    <td>0.621</td>
+    <td>73.66</td>
+    <td>77.61</td>
+    <td>74.20</td>
+    <td>75.87</td>
+    <td>73.02</td>
     </tr>
 </table>
 <br>
