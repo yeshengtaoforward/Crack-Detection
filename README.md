@@ -1,4 +1,5 @@
-# Deep supervised pavement crack segmentation algorithm based on multi-scale attention and feature fusion 
+# Deep supervised pavement crack segmentation algorithm based on multi-scale attention and feature fusion
+[1]刘媛媛,叶盛涛,王靖智,等.多尺度注意力与特征融合的深度监督路面裂缝分割算法[J/OL].光电子·激光,1-13[2024-08-20].http://kns.cnki.net/kcms/detail/12.1182.o4.20240820.0936.004.html.
 
 ## Abstract
 Aiming at the problem of incomplete crack segmentation and missed detection in 
