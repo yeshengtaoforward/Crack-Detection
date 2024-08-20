@@ -1,16 +1,19 @@
-# Multi Scale Attention Based Efficient U-Net for Crack Segmentation
+# Deep supervised pavement crack segmentation algorithm based on multi-scale attention and feature fusion 
 
 ## Abstract
-Crack detection, classification, and characterization are key
-components of automatic structural health monitoring systems. Convolution
-based encoder-decoder deep learning architecture have played a
-significant role in developing crack segmentation models possessing limitations
-in capturing the global context of the image. To overcome the
-stated limitation, in the present study we propose a novel Multi-Scale Attention
-based Efficient U-Net which effectively tries to solve this limitation. The
-proposed method achieved an F1 Score of 0.775, an IoU of 0.663 and
-an accuracy of 97.3% on Crack500 dataset improving upon the current
-state-of-the-art models.
+Aiming at the problem of incomplete crack segmentation and missed detection in 
+pavement crack detection under complex background and unbalanced crack pixel ratio, this paper 
+proposes a deep supervised pavement crack segmentation algorithm with multi-scale attention and 
+feature fusion. Firstly, the EfficientNet-B3 is improved by using the ECA (efficient channel attention) 
+attention mechanism and used as the encoding part of the network model to accelerate the attention to 
+crack pixels. Secondly, a multi-scale channel attention module (MSCA) is designed, which uses the 
+cascade parallel strategy of dilated convolution to extract key contextual information and enhance the 
+perception of small cracks. Finally, multiple side feature maps are integrated in the auxiliary network 
+in a feature pyramid manner, and a deep supervision mechanism is introduced to accelerate the 
+convergence of the model and improve the effect of crack detection. Experiments are carried out on 
+the CRACK500, CFD, and DeepCrack datasets. The F1 in the detection results can reach 75.87%, 
+66.80%, and 86.46% respectively, which is better than the current advanced crack segmentation 
+methods and has certain application value. 
 
 <hr>
 
@@ -79,11 +82,6 @@ the testing set
 <figcaption align="center"><b>Fig 3: Result From model</b></figcaption>
 </figure>
 <hr>
-
-## Resouces
-
-- Colab Notebook link: <a href="https://colab.research.google.com/drive/1LLnRU-P2YrQrGzI6K5Yqn39x6s2pFL9H?usp=sharing">Colab Notebook</a>
-- Best Model and Logs: <a href="https://drive.google.com/drive/folders/1qEe5Ox27RgM5KZum3dNJmUEUzoXGj_as?usp=sharing">Best Model and Logs</a>
 
 <hr>
 
